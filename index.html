@@ -1,0 +1,350 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&family=Sen:wght@400;700;800&display=swap" rel="stylesheet">
+
+    <title>Movie Design</title>
+</head>
+<body>  
+   <div class="navbar">
+       <div class="navbar-container">
+           <div class="logo-container"><h1 class="logo">Zaxor</h1></div>
+           <div class="menu-container">
+               <ul class="menu-list">
+                    <li class="menu-list-item active">HOME</li>
+                    <li class="menu-list-item">MOVIES</li>
+                    <li class="menu-list-item">SERIES</li>
+                    <li class="menu-list-item">POPULAR</li>
+                    <li class="menu-list-item">TREND</li>
+               </ul>
+
+           </div>
+           <div class="profile-container">
+               <img class="profile-picture" src="img/profile.jpg" />
+               <div class="profile-text-container">
+                   <span class="profile-text">Profile</span>
+                   <i class="fas fa-caret-down"></i>
+                </div>
+                <div class="toggle">
+                    <i class="fas fa-moon toggle-icon"></i>
+                    <i class="fas fa-sun toggle-icon"></i>
+                    <div class="toggle-ball"></div>
+                </div>
+           </div>
+           
+       </div>
+   </div>
+   <div class="sidebar">
+       <i class="left-menu-icon fas fa-search"></i>
+       <i class="left-menu-icon fas fa-home"></i>
+       <i class="left-menu-icon fas fa-users"></i>
+       <i class="left-menu-icon fas fa-bookmark"></i>
+       <i class="left-menu-icon fas fa-tv"></i>
+       <i class="left-menu-icon fas fa-hourglass-start"></i>
+       <i class="left-menu-icon fas fa-shopping-cart"></i>
+   </div>
+   <div class="container">
+       <div class="content-container">
+            <div class="featured-content"
+                style="background:linear-gradient(to bottom,rgba(0,0,0,0),#151515),url('img/f-1.jpg');"
+            >
+                <img class="featured-title" src="img/f-t-1.png"/>
+                <p class="featured-desc hidden">
+                    In 1858 Texas, brothers Ace and Dicky Speck drive a group of shackled black slaves on foot. Among them is Django, sold off and separated from his wife Broomhilda von Shaft, a house slave who speaks German and English. 
+                </p>
+                <button class="featured-button hidden">WATCH</button>
+            </div>
+        <div class="movie-list-container">
+            <h1 class="movie-list-title hidden">NEW RELEASES</h1>
+            <div class="movie-list-wrapper hidden">
+                <div class="movie-list">
+                    <div class="movie-list-item">
+                        <img class="movie-list-item-img" src="img/1.jpeg" />
+                        <span class="movie-list-item-title">Her</span>
+                        <p class="movie-list-item-desc">Her is a 2013 American science-fiction romantic drama film written, directed, and co-produced by Spike Jonze.</p>
+                        <button class="movie-list-item-button">WATCH</button>
+                        
+                    </div>
+
+                    <div class="movie-list-item">
+                        <img class="movie-list-item-img" src="img/2.jpeg" />
+                        <span class="movie-list-item-title">Star Wars</span>
+                        <p class="movie-list-item-desc">Star Wars is an American epic space opera media franchise created by George Lucas </p>
+                        <button class="movie-list-item-button">WATCH</button>
+                        
+                    </div>
+
+                    <div class="movie-list-item">
+                        <img class="movie-list-item-img" src="img/3.jpg" />
+                        <span class="movie-list-item-title">Storm</span>
+                        <p class="movie-list-item-desc">Storm is the son of a printer, he is 12 years old and lives in 16th-century Antwerp.</p>
+                        <button class="movie-list-item-button">WATCH</button>
+                        
+                    </div>
+
+                    <div class="movie-list-item">
+                        <img class="movie-list-item-img" src="img/4.jpg" />
+                        <span class="movie-list-item-title">1917</span>
+                        <p class="movie-list-item-desc">1917 is a 2019 British war film directed and produced by Sam Mendes, who co-wrote it with Krysty Wilson-Cairns</p>
+                        <button class="movie-list-item-button">WATCH</button>
+                        
+                    </div>
+
+                    <div class="movie-list-item">
+                        <img class="movie-list-item-img" src="img/5.jpg" />
+                        <span class="movie-list-item-title">Avengers</span>
+                        <p class="movie-list-item-desc">Earth's mightiest heroes must come together and learn to fight as a team if they are going to stop the mischievous Loki </p>
+                        <button class="movie-list-item-button">WATCH</button>
+                        
+                    </div>
+
+                    <div class="movie-list-item">
+                        <img class="movie-list-item-img" src="img/6.jpg" />
+                        <span class="movie-list-item-title">Rampage</span>
+                        <p class="movie-list-item-desc">When three different animals become infected with a dangerous pathogen, a primatologist </p>
+                        <button class="movie-list-item-button">WATCH</button>
+                        
+                    </div>
+
+                    <div class="movie-list-item">
+                        <img class="movie-list-item-img" src="img/7.jpg" />
+                        <span class="movie-list-item-title">X-Men</span>
+                        <p class="movie-list-item-desc">The X-Men series has been a well-liked part of the Marvel universe for decades. </p>
+                        <button class="movie-list-item-button">WATCH</button>
+                        
+                    </div>
+                    <div class="movie-list-item">
+                        <img class="movie-list-item-img" src="img/8.jpg" />
+                        <span class="movie-list-item-title">Oblivation</span>
+                        <p class="movie-list-item-desc">A veteran assigned to extract Earth's remaining resources begins to question what he knows about his mission and himself.</p>
+                        <button class="movie-list-item-button">WATCH</button>
+                        
+                    </div>
+                </div>
+                <i class="fas fa-chevron-right arrow"></i>
+            </div>
+
+        </div>
+
+        <!--Deck 2-->
+        <div class="movie-list-container">
+            <h1 class="movie-list-title hidden">ACTION</h1>
+            <div class="movie-list-wrapper hidden">
+                <div class="movie-list">
+                    <div class="movie-list-item">
+                        <img class="movie-list-item-img" src="img/8.jpg" />
+                        <span class="movie-list-item-title">Oblivation</span>
+                        <p class="movie-list-item-desc">A veteran assigned to extract Earth's remaining resources begins to question what he knows about his mission and himself.</p>
+                        <button class="movie-list-item-button">WATCH</button>
+                        
+                    </div>
+
+                    <div class="movie-list-item">
+                        <img class="movie-list-item-img" src="img/9.jpg" />
+                        <span class="movie-list-item-title">Hobbit</span>
+                        <p class="movie-list-item-desc">The Hobbit is a series of three epic high fantasy adventure films directed by Peter Jackson.</p>
+                        <button class="movie-list-item-button">WATCH</button>
+                        
+                    </div>
+
+                    <div class="movie-list-item">
+                        <img class="movie-list-item-img" src="img/10.jpg" />
+                        <span class="movie-list-item-title">Due Date</span>
+                        <p class="movie-list-item-desc">Due Date is a 2010 American black comedy road film directed by Todd Phillips, who wrote the screenplay with Alan R. Cohen</p>
+                        <button class="movie-list-item-button">WATCH</button>
+                        
+                    </div>
+
+                    <div class="movie-list-item">
+                        <img class="movie-list-item-img" src="img/11.jpg" />
+                        <span class="movie-list-item-title">Kick-Ass 2</span>
+                        <p class="movie-list-item-desc">Four years after the death of Damon Macready / Big Daddy and defeating Frank D'Amico, Dave Lizewski, bored</p>
+                        <button class="movie-list-item-button">WATCH</button>
+                        
+                    </div>
+
+                    <div class="movie-list-item">
+                        <img class="movie-list-item-img" src="img/12.jpg" />
+                        <span class="movie-list-item-title">Emoji</span>
+                        <p class="movie-list-item-desc">The Emoji Movie is a 2017 American animated science fiction comedy film produced by Columbia Pictures</p>
+                        <button class="movie-list-item-button">WATCH</button>
+                        
+                    </div>
+
+                    <div class="movie-list-item">
+                        <img class="movie-list-item-img" src="img/13.jpg" />
+                        <span class="movie-list-item-title">1920</span>
+                        <p class="movie-list-item-desc">In 1920 British India, Arjun Singh Rathod is a well-known architect who has gone against his wealthy Hindu</p>
+                        <button class="movie-list-item-button">WATCH</button>
+                        
+                    </div>
+
+                    <div class="movie-list-item">
+                        <img class="movie-list-item-img" src="img/14.jpg" />
+                        <span class="movie-list-item-title">Paths Of Glory</span>
+                        <p class="movie-list-item-desc">Paths of Glory is a 1957 American anti-war film co-written and directed by Stanley Kubrick</p>
+                        <button class="movie-list-item-button">WATCH</button>
+                        
+                    </div>
+                </div>
+                <i class="fas fa-chevron-right arrow"></i>
+            </div>
+            <!--Deck 3-->
+            <div class="featured-content"
+                style="background:linear-gradient(to bottom,rgba(0,0,0,0),#151515),url('img/f-2.jpg');"
+            >
+                <img class="featured-title" src="img/f-t-2.png"/>
+                <p class="featured-desc">
+                    Dark is a German science fiction thriller television series co-created by Baran bo Odar and Jantje Friese.It ran for three seasons from 2017 to 2020. The story follows characters from the fictional town of Winden, Germany, as they pursue the truth in the aftermath of a child's disappearance. 
+                </p>
+                <button class="featured-button">WATCH</button>
+            </div>
+            <div class="movie-list-container">
+                <h1 class="movie-list-title hidden">HORROR</h1>
+                <div class="movie-list-wrapper hidden">
+                    <div class="movie-list">
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/14.jpg" />
+                            <span class="movie-list-item-title">Paths Of Glory</span>
+                            <p class="movie-list-item-desc">Paths of Glory is a 1957 American anti-war film co-written and directed by Stanley Kubrick, </p>
+                            <button class="movie-list-item-button">WATCH</button>
+                            
+                        </div>
+    
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/15.jpg" />
+                            <span class="movie-list-item-title">Lego Batman</span>
+                            <p class="movie-list-item-desc">Within the DC superhero dimension of the Lego multiverse, Batman protects Gotham City and fights crime.</p>
+                            <button class="movie-list-item-button">WATCH</button>
+                            
+                        </div>
+    
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/16.jpg" />
+                            <span class="movie-list-item-title">1920</span>
+                            <p class="movie-list-item-desc">In 1920 British India, Arjun Singh Rathod is a well-known architect who has gone against his wealthy Hindu</p>
+                            <button class="movie-list-item-button">WATCH</button>
+                            
+                        </div>
+    
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/17.jpg" />
+                            <span class="movie-list-item-title">Aquaman</span>
+                            <p class="movie-list-item-desc">In 1985 Maine, lighthouse keeper Thomas Curry rescues Atlanna, queen of the underwater kingdom of Atlantis, during a storm.</p>
+                            <button class="movie-list-item-button">WATCH</button>
+                            
+                        </div>
+    
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/18.jpg" />
+                            <span class="movie-list-item-title">Fairy Tale</span>
+                            <p class="movie-list-item-desc">The world of Earth-land is home to numerous guilds where wizards[b] apply their magic for paid job requests.</p>
+                            <button class="movie-list-item-button">WATCH</button>
+                            
+                        </div>
+    
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/19.jpg" />
+                            <span class="movie-list-item-title">Spiderman</span>
+                            <p class="movie-list-item-desc">A young Peter Parker finds his father's home office burglarized. Richard and Mary Parker, Peter's parents, gather hidden documents.</p>
+                            <button class="movie-list-item-button">WATCH</button>
+                            
+                        </div>
+    
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/1.jpeg" />
+                            <span class="movie-list-item-title">Her</span>
+                            <p class="movie-list-item-desc">Her is a 2013 American science-fiction romantic drama film written, directed, and co-produced by Spike Jonze.</p>
+                            <button class="movie-list-item-button">WATCH</button>
+                            
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/2.jpeg" />
+                            <span class="movie-list-item-title">Star Wars</span>
+                            <p class="movie-list-item-desc">Star Wars is an American epic space opera media franchise created by George Lucas</p>
+                            <button class="movie-list-item-button">WATCH</button>
+                            
+                        </div>
+                    </div>
+                    <i class="fas fa-chevron-right arrow"></i>
+                </div>
+    
+            </div>
+            <!--Deck 4-->
+            <div class="movie-list-container">
+                <h1 class="movie-list-title hidden">SCI-FI</h1>
+                <div class="movie-list-wrapper hidden">
+                    <div class="movie-list">
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/3.jpg" />
+                            <span class="movie-list-item-title">Storm</span>
+                            <p class="movie-list-item-desc">Storm is the son of a printer, he is 12 years old and lives in 16th-century Antwerp.</p>
+                            <button class="movie-list-item-button">WATCH</button>
+                            
+                        </div>
+    
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/4.jpg" />
+                            <span class="movie-list-item-title">1917</span>
+                            <p class="movie-list-item-desc">1917 is a 2019 British war film directed and produced by Sam Mendes, who co-wrote it with Krysty Wilson-Cairns</p>
+                            <button class="movie-list-item-button">WATCH</button>
+                            
+                        </div>
+    
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/5.jpg" />
+                            <span class="movie-list-item-title">Avengers</span>
+                            <p class="movie-list-item-desc">Earth's mightiest heroes must come together and learn to fight as a team if they are going to stop the mischievous Loki</p>
+                            <button class="movie-list-item-button">WATCH</button>
+                            
+                        </div>
+    
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/6.jpg" />
+                            <span class="movie-list-item-title">Rampage</span>
+                            <p class="movie-list-item-desc">When three different animals become infected with a dangerous pathogen, a primatologist</p>
+                            <button class="movie-list-item-button">WATCH</button>
+                            
+                        </div>
+    
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/7.jpg" />
+                            <span class="movie-list-item-title">X-Men</span>
+                            <p class="movie-list-item-desc">The X-Men series has been a well-liked part of the Marvel universe for decades.</p>
+                            <button class="movie-list-item-button">WATCH</button>
+                            
+                        </div>
+    
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/8.jpg" />
+                            <span class="movie-list-item-title">Oblivation</span>
+                            <p class="movie-list-item-desc">A veteran assigned to extract Earth's remaining resources begins to question what he knows about his mission and himself.</p>
+                            <button class="movie-list-item-button">WATCH</button>
+                            
+                        </div>
+    
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/9.jpg" />
+                            <span class="movie-list-item-title">Hobbit</span>
+                            <p class="movie-list-item-desc">The Hobbit is a series of three epic high fantasy adventure films directed by Peter Jackson.</p>
+                            <button class="movie-list-item-button">WATCH</button>
+                            
+                        </div>
+                    </div>
+                    <i class="fas fa-chevron-right arrow"></i>
+                </div>
+    
+            </div>
+        </div>
+       </div>
+   </div>
+   <script src="app.js"></script>
+</body>
+</html>
