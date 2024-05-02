@@ -258,3 +258,30 @@ body{
         transform: translateY(0px);
     }
 }
+
+@media screen and (max-width : 738px) {
+ 
+    .navbar-container{
+        padding: 0 10px;
+    }
+    .sidebar{
+        display: none;
+    }
+    .content-container{
+        margin : 0;
+    }
+    .featured-content{
+        background-size: contain;
+        text-align: center;
+    }
+    .featured-desc{
+        width : 100%;
+    }
+    .movie-list-container{
+        text-align: center;
+    }
+    .movie-list-title:nth-child(1){
+        padding: 10px 0 0 0;
+    }
+    
+}
